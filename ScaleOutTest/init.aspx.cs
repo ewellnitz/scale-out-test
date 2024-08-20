@@ -8,7 +8,7 @@ namespace ScaleOutTest
         protected void Page_Load(object sender, EventArgs e)
         {
             Debug.WriteLine("init::Page_Load - Start");
-            System.Threading.Thread.SpinWait(10000);
+            System.Threading.Thread.Sleep(5000);
             Debug.WriteLine("init::Page_Load - End");
         }
     }
