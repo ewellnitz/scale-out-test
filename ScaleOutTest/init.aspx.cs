@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 
-namespace ScaleOutTestWebApi
+namespace ScaleOutTest
 {
     public partial class init : System.Web.UI.Page
     {

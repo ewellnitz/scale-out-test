@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="init.aspx.cs" Inherits="ScaleOutTestWebApi.init" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="init.aspx.cs" Inherits="ScaleOutTest.init" %>
 
 <!DOCTYPE html>
 
