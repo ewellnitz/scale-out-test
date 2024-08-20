@@ -13,6 +13,7 @@ namespace ScaleOutTest
         protected void Application_Start()
         {
             Debug.WriteLine("WebApiApplication::Application_Start");
+            WebApiConfig.Log.Add("WebApiApplication::Application_Start");
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }

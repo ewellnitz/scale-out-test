@@ -7,6 +7,8 @@ namespace ScaleOutTest
 {
     public static class WebApiConfig
     {
+
+        public static List<string> Log = new List<string>();
         public static void Register(HttpConfiguration config)
         {
             // Web API configuration and services

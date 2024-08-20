@@ -1,9 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 
 namespace ScaleOutTest.Controllers
@@ -13,8 +10,8 @@ namespace ScaleOutTest.Controllers
         // GET api/values
         public IEnumerable<string> Get()
         {
-            Debug.WriteLine("ValuesController::Get");
-            return new string[] { "value1", "value2" };
+            WebApiConfig.Log.Add("ValuesController::Get");
+            return WebApiConfig.Log.ToArray();
         }
 
         // GET api/values/5

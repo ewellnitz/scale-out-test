@@ -14,7 +14,7 @@
     <RootNamespace>ScaleOutTest</RootNamespace>
     <AssemblyName>ScaleOutTest</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <UseIISExpress>false</UseIISExpress>
+    <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort>44370</IISExpressSSLPort>
     <IISExpressAnonymousAuthentication />
@@ -124,7 +124,7 @@
           <AutoAssignPort>True</AutoAssignPort>
           <DevelopmentServerPort>63595</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
-          <IISUrl>http://localhost/ScaleOutTest</IISUrl>
+          <IISUrl>http://localhost:63595/</IISUrl>
           <NTLMAuthentication>False</NTLMAuthentication>
           <UseCustomServer>False</UseCustomServer>
           <CustomServerUrl>
